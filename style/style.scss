@@ -4,13 +4,15 @@ body {
   height: 100vh;
   background-color: #7d4aa9;
   display: flex;
-  min-width: 1800px;
+  max-width: 100%;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 }
 
 main {
-  width: 1700px;
+  border-radius: 15px;
+  width: 80vw;
+  padding: 0 30px;
   height: 90%;
   background-color: black;
   display: flex;
@@ -66,20 +68,24 @@ main {
 .main__img__01 {
   background-image: url("../img/4.jpeg");
   background-size: cover;
+  cursor: pointer;
 }
 .main__img__02 {
   background-image: url("../img/5.jpeg");
   background-size: cover;
+  cursor: pointer;
 }
 .main__img__03 {
   background-image: url("../img/6.jpeg");
   background-size: cover;
   background-position: 100% 80%;
+  cursor: pointer;
 }
 .main__img__04 {
   background-image: url("../img/7.jpeg");
   background-size: cover;
   background-position: 100% 80%;
+  cursor: pointer;
 }
 
 .nav {
@@ -92,6 +98,7 @@ main {
     font-size: 20px;
     li {
       margin-bottom: 40px;
+      cursor: pointer;
     }
   }
   span {
@@ -113,6 +120,7 @@ main {
     padding: 0 40px;
     background-color: #ffc934;
     justify-content: space-between;
+    cursor: pointer;
     span {
       align-self: center;
     }
@@ -122,6 +130,7 @@ main {
     }
   }
   .sell__seccond {
+    cursor: pointer;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.313);
     transform: rotate(7deg);
     background-color: #ffffff;
